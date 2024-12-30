@@ -1,0 +1,96 @@
+/* ? Imports */
+/* _______________________________________________________________ */
+
+/* ? Variables */
+:root {
+   /* Color Theme */
+
+   /* Typography */
+
+   /* Spacing */
+
+   /* Border Radius */
+
+   /* Shadows */
+}
+
+/* ? Color Theme for Dark mode goes here */
+/* .dark-mode {
+
+} */
+/* _______________________________________________________________ */
+/* !Main CSS */
+body {
+   height: 100vh;
+   background-image: linear-gradient(315deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.carousel {
+   width: min(95%, 60rem);
+   background: hsla(0, 0%, 100%, 0.3);
+   padding: 1em;
+   border-radius: 10px;
+   position: relative;
+   margin: auto;
+}
+
+.carousel__container {
+   width: 90%;
+   margin: 2.5rem auto;
+}
+
+.carousel__slide {
+   display: none;
+}
+
+.carousel__slide:first-child {
+   display: block;
+}
+
+.carousel__slide img {
+   border-radius: 10px;
+}
+
+.carousel__button {
+   background: hsla(0, 0%, 100%, 0.3);
+   border: none;
+   padding: 0.5em 1em;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 2.5rem;
+   height: 2.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.carousel__button--left {
+   position: absolute;
+   top: 50%;
+   left: 1%;
+}
+
+.carousel__button--right {
+   position: absolute;
+   top: 50%;
+   right: 1%;
+}
+
+/* _______________________________________________________________ */
+/* ? Media Queries */
+/* Different Screen Sizes 
+-Small Mobile = 320px
+-Medium Mobile = 375px
+-Large Mobile = 425px
+Tablet = 768px
+Laptop = 1024px
+Large Laptop = 1440px
+4K = 2560px
+*/
+
+/* @media() {
+} */
+/* _______________________________________________________________ */
